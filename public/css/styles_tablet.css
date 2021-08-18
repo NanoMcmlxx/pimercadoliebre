@@ -1,0 +1,56 @@
+/* Punto de corte para Tablet 480px*/
+
+.descripcion {
+  display: initial;
+}
+
+.logo {
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.buscador {
+  padding-left: 10px;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_search_header {
+  display: flex;
+  width: 66.66%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_header h4 {
+  max-width: 200px;
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger-menu {
+  display: none;
+}
+.section_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_flex article {
+  width: 50%;
+}
+
+/* ////// Estilos Formularios/////// */
+.form {
+  padding: 0 15vw;
+}
+.form_input label {
+  display: block;
+}

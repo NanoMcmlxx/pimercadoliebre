@@ -1,0 +1,220 @@
+/* Colores y tamaños de fonts generales del sitio */
+
+.background_amarillo {
+  background-color: #eac926;
+}
+
+.background_gris {
+  background-color: #ebebeb;
+}
+
+.azul {
+  color: #03264c;
+}
+
+.verde {
+  color: #39b54a;
+}
+
+.textos {
+  font-size: 12px;
+}
+.titulares {
+  font-size: 24px;
+  padding-top: 2px;
+}
+.precios {
+  width: 30%;
+  font-weight: bolder;
+  font-size: 18px;
+  align-self: center;
+}
+.descuento {
+  width: 70%;
+  font-size: 16px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+}
+.descripcion {
+  display: none;
+  font-size: 16px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+/* Seteos Estructura Básica  */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+
+header {
+  padding: 15px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+main {
+  padding: 0 5% 15px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 5px;
+}
+
+.logo {
+  width: 50%;
+  min-width: 100px;
+  padding-right: 2px;
+}
+
+.banner {
+  display: block;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  margin: 10px;
+}
+
+.burger-menu {
+  border-radius: 5px;
+  width: 40px;
+  padding: 8px;
+  text-align: center;
+  font-size: 22px;
+  background-color: #1259c3;
+  color: white;
+  margin: 0 auto;
+}
+
+.logo_search_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buscador {
+  display: flex;
+  padding-left: 2px;
+}
+
+.buscardor input {
+  width: 50%;
+}
+
+.producto {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  margin: 0 20px 10px;
+}
+
+.detalle_producto {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  background-color: white;
+}
+
+.envio_icon {
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 8px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: #39b54a solid 1px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+}
+
+.footer_icon {
+  color: #1259c3;
+  font-size: 2em;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.footer_title {
+  margin: 0px auto;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.footer_text {
+  padding: 0px 40px;
+  margin-top: 0px;
+}
+
+.copyrigth {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.section_flex h2 {
+  width: 100%;
+  margin-top: 0;
+}
+
+/* ////// Estilos Formularios/////// */
+
+.form {
+  padding: 0 5vw;
+}
+
+.form_input label {
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form_input input {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.button_login {
+  background-color: #1259c3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border-width: 0px;
+}

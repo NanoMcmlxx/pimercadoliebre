@@ -1,0 +1,42 @@
+/* Punto de corte para Desktop 769px*/
+
+.section_flex article {
+  width: 25%;
+}
+
+.form {
+  padding: 0 25vw;
+}
+
+.producto {
+  box-shadow: none;
+}
+
+.producto:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.descripcion {
+  opacity: 0;
+}
+
+.producto:hover .descripcion {
+  opacity: 1;
+}
+
+.envio_icon {
+  transition: transform ease-in-out 500ms;
+}
+
+.producto:hover .envio_icon {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.footer_destop {
+  display: flex;
+}
+
+.footer_icon i:hover {
+  color: orangered;
+  transform: scale(1.8);
+}
