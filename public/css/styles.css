@@ -86,7 +86,7 @@ footer {
 }
 
 .logo {
-  width: 50%;
+  width: 30%;
   min-width: 100px;
   padding-right: 2px;
 }
@@ -126,11 +126,10 @@ footer {
 
 .buscador {
   display: flex;
-  padding-left: 2px;
 }
 
 .buscardor input {
-  width: 50%;
+  width: 70%;
 }
 
 .producto {
@@ -202,9 +201,29 @@ footer {
 }
 
 .form_input input {
-  margin-bottom: 20px;
   width: 100%;
   max-width: 500px;
+}
+.form_input_select {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form_input {
+  margin-bottom: 22px;
+}
+
+.input_error {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  color: red;
+  font-size: 10px;
+}
+.margin_btm_select {
+  margin-bottom: 22px;
+  padding-left: 10px;
 }
 
 .button_login {
@@ -215,6 +234,25 @@ footer {
   border-radius: 5px;
   color: white;
   width: 100%;
+  max-width: 500px;
   padding: 5px;
   border-width: 0px;
+}
+
+.botonera_reg {
+  display: flex;
+  justify-content: space-between;
+}
+.button_reg {
+  background-color: #1259c3;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  width: 45%;
+  max-width: 200px;
+  padding: 5px;
+  border-width: 0px;
+  margin: 0 auto;
 }

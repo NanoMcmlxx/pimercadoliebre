@@ -1,5 +1,27 @@
 /* Punto de corte para Desktop 769px*/
+.main_header {
+  justify-content: space-around;
+}
 
+.main_header .buscador {
+  width: 60%;
+  padding-left: 15%;
+}
+
+.main_header input {
+  width: 80%;
+}
+.texto_header {
+  width: 33%;
+}
+
+.main_header h4 {
+  max-width: 100%;
+}
+
+.navbar {
+  font-size: 14px;
+}
 .section_flex article {
   width: 25%;
 }
@@ -39,4 +61,9 @@
 .footer_icon i:hover {
   color: orangered;
   transform: scale(1.8);
+}
+
+.button_reg:hover,
+.button_login:hover {
+  background-color: rgb(45, 87, 36);
 }

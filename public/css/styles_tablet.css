@@ -5,12 +5,7 @@
 }
 
 .logo {
-  min-width: 150px;
-  max-width: 200px;
-}
-
-.buscador {
-  padding-left: 10px;
+  min-width: 200px;
 }
 
 .main_header {
@@ -20,10 +15,7 @@
 }
 
 .logo_search_header {
-  display: flex;
   width: 66.66%;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .main_header h4 {

@@ -91,6 +91,7 @@
               id="name"
               placeholder="Nombre y Apellido"
             />
+            <p class="input_error">* Campo requerido</p>
           </div>
           <div class="form_input">
             <label for="username">Nombre de Usuario</label>
@@ -118,34 +119,130 @@
               placeholder="Domiciio"
             />
           </div>
+          <div class="form_input_select">
+            <label>Perfil de Usuario</label>
+          </div>
+          <div class="margin_btm_select">
+            <input
+              type="radio"
+              name="userprofile"
+              id="userprofileseller"
+              value="seller"
+            />
+            <label for="userprofileseller">Vendedor</label>
+
+            <input
+              type="radio"
+              name="userprofile"
+              id="userprofilebuyer"
+              value="buyer"
+            />
+            <label for="userprofilebuyer">Comprador</label>
+          </div>
+
+          <div class="form_input_select">
+            <label>Intereses</label>
+          </div>
+          <div class="margin_btm_select">
+            <input
+              type="checkbox"
+              name="electro"
+              id="electro"
+              value="electro"
+            />
+            <label for="electro">Electro</label>
+          </div>
+          <div class="margin_btm_select">
+            <input type="checkbox" name="moda" id="moda" value="moda" />
+            <label for="moda">Moda</label>
+          </div>
+          <div class="margin_btm_select">
+            <input type="checkbox" name="hogar" id="hogar" value="hogar" />
+            <label for="hogar">Hogar</label>
+          </div>
+          <div class="margin_btm_select">
+            <input
+              type="checkbox"
+              name="jugeteria"
+              id="jugeteria"
+              value="jugeteria"
+            />
+            <label for="jugeteria">Jugetería</label>
+          </div>
+          <div class="margin_btm_select">
+            <input
+              type="checkbox"
+              name="vidasana"
+              id="vidasana"
+              value="vidasana"
+            />
+            <label for="vidasana">Vida sana</label>
+          </div>
+          <div class="form_input_select">
+            <label for="profilepic">Foto de Perfil</label>
+          </div>
+          <div class="margin_btm_select">
+            <input
+              type="file"
+              name="profilepic"
+              id="profilepic"
+              accept="image/png,image/jpeg"
+            />
+          </div>
+          <div class="form_input">
+            <label for="password">Contraseña</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Contraseña"
+            />
+          </div>
+          <div class="form_input">
+            <label for="repassword">Repita Contraseña</label>
+            <input
+              id="repassword"
+              type="password"
+              name="repassword"
+              placeholder="Repita Contraseña"
+            />
+          </div>
+          <div class="botonera_reg">
+            <button class="button_reg" type="reset">Limpiar</button>
+            <button class="button_reg" type="submit" formaction="/">
+              Enviar
+            </button>
+          </div>
         </form>
       </div>
     </main>
     <footer>
-      <section class="centrado">
-        <div class="footer_icon"><i class="fas fa-credit-card"> </i></div>
-        <p class="footer_title">Pagá con tarjeta o en efectivo</p>
-        <p class="footer_text">
-          Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
-          efectivo en puntos de pago. ¡Y siempre es seguro!
-        </p>
-      </section>
-      <section class="centrado">
-        <div class="footer_icon"><i class="fas fa-gift"></i></div>
-        <p class="footer_title">Envío gratis desde $ 2.500</p>
-        <p class="footer_text">
-          Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
-          miles de productos. Es un beneficio de Mercado Puntos.
-        </p>
-      </section>
-      <section class="centrado">
-        <div class="footer_icon"><i class="fas fa-user-shield"></i></div>
-        <p class="footer_title">Seguridad de principio a fin</p>
-        <p class="footer_text">
-          ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-          hacer, porque estás siempre protegid@.
-        </p>
-      </section>
+      <div class="footer_destop">
+        <section class="centrado">
+          <div class="footer_icon"><i class="fas fa-credit-card"> </i></div>
+          <p class="footer_title">Pagá con tarjeta o en efectivo</p>
+          <p class="footer_text">
+            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+            efectivo en puntos de pago. ¡Y siempre es seguro!
+          </p>
+        </section>
+        <section class="centrado">
+          <div class="footer_icon"><i class="fas fa-gift"></i></div>
+          <p class="footer_title">Envío gratis desde $ 2.500</p>
+          <p class="footer_text">
+            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+            miles de productos. Es un beneficio de Mercado Puntos.
+          </p>
+        </section>
+        <section class="centrado">
+          <div class="footer_icon"><i class="fas fa-user-shield"></i></div>
+          <p class="footer_title">Seguridad de principio a fin</p>
+          <p class="footer_text">
+            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer, porque estás siempre protegid@.
+          </p>
+        </section>
+      </div>
       <section>
         <p class="copyrigth">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
       </section>
